@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56E6FC4C1602A6FA002D76C8 /* TeeHeeNiceTry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56E6FC4B1602A6FA002D76C8 /* TeeHeeNiceTry.jpg */; };
+		56ED798C1576A188000E02E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56ED798B1576A188000E02E3 /* UIKit.framework */; };
+		56ED798E1576A188000E02E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56ED798D1576A188000E02E3 /* Foundation.framework */; };
+		56ED79901576A188000E02E3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56ED798F1576A188000E02E3 /* CoreGraphics.framework */; };
+		56ED79961576A188000E02E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 56ED79941576A188000E02E3 /* InfoPlist.strings */; };
+		56ED79981576A188000E02E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56ED79971576A188000E02E3 /* main.m */; };
+		56ED799C1576A188000E02E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56ED799B1576A188000E02E3 /* AppDelegate.m */; };
+		56ED79A91576A1A8000E02E3 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56ED79A81576A1A8000E02E3 /* ViewController.xib */; };
+		56ED79AC1576A1CC000E02E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56ED79AB1576A1CC000E02E3 /* ViewController.m */; };
+		56ED79B11576A1E7000E02E3 /* VCMutableGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = 56ED79AE1576A1E7000E02E3 /* VCMutableGrid.m */; };
+		56ED79B21576A1E7000E02E3 /* VCOutlineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56ED79B01576A1E7000E02E3 /* VCOutlineView.m */; };
+		56ED79BA1576A207000E02E3 /* NSArray+Permute.m in Sources */ = {isa = PBXBuildFile; fileRef = 56ED79B51576A207000E02E3 /* NSArray+Permute.m */; };
+		56ED79BB1576A207000E02E3 /* NSMutableArray+Move.m in Sources */ = {isa = PBXBuildFile; fileRef = 56ED79B71576A207000E02E3 /* NSMutableArray+Move.m */; };
+		56ED79BC1576A207000E02E3 /* UIColor+RandomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 56ED79B91576A207000E02E3 /* UIColor+RandomColor.m */; };
+		56ED79BF1576A217000E02E3 /* VCPuzzleGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = 56ED79BE1576A217000E02E3 /* VCPuzzleGrid.m */; };
+		56ED79C91576A284000E02E3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56ED79C81576A284000E02E3 /* SenTestingKit.framework */; };
+		56ED79CA1576A284000E02E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56ED798B1576A188000E02E3 /* UIKit.framework */; };
+		56ED79CB1576A284000E02E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56ED798D1576A188000E02E3 /* Foundation.framework */; };
+		56ED79D11576A284000E02E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 56ED79CF1576A284000E02E3 /* InfoPlist.strings */; };
+		56ED79D41576A284000E02E3 /* UnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56ED79D31576A284000E02E3 /* UnitTests.m */; };
+		56ED79E31576A2AA000E02E3 /* ArrayPermuteTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 56ED79DC1576A2AA000E02E3 /* ArrayPermuteTest.m */; };
+		56ED79E41576A2AA000E02E3 /* VCPuzzleGridTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 56ED79DE1576A2AA000E02E3 /* VCPuzzleGridTest.m */; };
+		56ED79E51576A2AA000E02E3 /* MutableGridTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 56ED79E01576A2AA000E02E3 /* MutableGridTest.m */; };
+		56ED79E61576A2AA000E02E3 /* NSMutableArrayMoveTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 56ED79E21576A2AA000E02E3 /* NSMutableArrayMoveTest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56ED79D91576A28E000E02E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56ED797E1576A188000E02E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56ED79861576A188000E02E3;
+			remoteInfo = 15Puzzle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		56E6FC4B1602A6FA002D76C8 /* TeeHeeNiceTry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TeeHeeNiceTry.jpg; sourceTree = "<group>"; };
+		56ED79871576A188000E02E3 /* 15Puzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 15Puzzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56ED798B1576A188000E02E3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		56ED798D1576A188000E02E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		56ED798F1576A188000E02E3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		56ED79931576A188000E02E3 /* 15Puzzle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "15Puzzle-Info.plist"; sourceTree = "<group>"; };
+		56ED79951576A188000E02E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		56ED79971576A188000E02E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		56ED79991576A188000E02E3 /* 15Puzzle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "15Puzzle-Prefix.pch"; sourceTree = "<group>"; };
+		56ED799A1576A188000E02E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		56ED799B1576A188000E02E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		56ED79A81576A1A8000E02E3 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		56ED79AA1576A1CC000E02E3 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		56ED79AB1576A1CC000E02E3 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		56ED79AD1576A1E7000E02E3 /* VCMutableGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCMutableGrid.h; sourceTree = "<group>"; };
+		56ED79AE1576A1E7000E02E3 /* VCMutableGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCMutableGrid.m; sourceTree = "<group>"; };
+		56ED79AF1576A1E7000E02E3 /* VCOutlineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCOutlineView.h; sourceTree = "<group>"; };
+		56ED79B01576A1E7000E02E3 /* VCOutlineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCOutlineView.m; sourceTree = "<group>"; };
+		56ED79B41576A207000E02E3 /* NSArray+Permute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Permute.h"; sourceTree = "<group>"; };
+		56ED79B51576A207000E02E3 /* NSArray+Permute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Permute.m"; sourceTree = "<group>"; };
+		56ED79B61576A207000E02E3 /* NSMutableArray+Move.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Move.h"; sourceTree = "<group>"; };
+		56ED79B71576A207000E02E3 /* NSMutableArray+Move.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Move.m"; sourceTree = "<group>"; };
+		56ED79B81576A207000E02E3 /* UIColor+RandomColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RandomColor.h"; sourceTree = "<group>"; };
+		56ED79B91576A207000E02E3 /* UIColor+RandomColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RandomColor.m"; sourceTree = "<group>"; };
+		56ED79BD1576A217000E02E3 /* VCPuzzleGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCPuzzleGrid.h; sourceTree = "<group>"; };
+		56ED79BE1576A217000E02E3 /* VCPuzzleGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCPuzzleGrid.m; sourceTree = "<group>"; };
+		56ED79C71576A284000E02E3 /* UnitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56ED79C81576A284000E02E3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		56ED79CE1576A284000E02E3 /* UnitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
+		56ED79D01576A284000E02E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		56ED79D21576A284000E02E3 /* UnitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnitTests.h; sourceTree = "<group>"; };
+		56ED79D31576A284000E02E3 /* UnitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnitTests.m; sourceTree = "<group>"; };
+		56ED79D51576A284000E02E3 /* UnitTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UnitTests-Prefix.pch"; sourceTree = "<group>"; };
+		56ED79DB1576A2AA000E02E3 /* ArrayPermuteTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayPermuteTest.h; sourceTree = "<group>"; };
+		56ED79DC1576A2AA000E02E3 /* ArrayPermuteTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayPermuteTest.m; sourceTree = "<group>"; };
+		56ED79DD1576A2AA000E02E3 /* VCPuzzleGridTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCPuzzleGridTest.h; sourceTree = "<group>"; };
+		56ED79DE1576A2AA000E02E3 /* VCPuzzleGridTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCPuzzleGridTest.m; sourceTree = "<group>"; };
+		56ED79DF1576A2AA000E02E3 /* MutableGridTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutableGridTest.h; sourceTree = "<group>"; };
+		56ED79E01576A2AA000E02E3 /* MutableGridTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutableGridTest.m; sourceTree = "<group>"; };
+		56ED79E11576A2AA000E02E3 /* NSMutableArrayMoveTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSMutableArrayMoveTest.h; sourceTree = "<group>"; };
+		56ED79E21576A2AA000E02E3 /* NSMutableArrayMoveTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSMutableArrayMoveTest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56ED79841576A188000E02E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56ED798C1576A188000E02E3 /* UIKit.framework in Frameworks */,
+				56ED798E1576A188000E02E3 /* Foundation.framework in Frameworks */,
+				56ED79901576A188000E02E3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56ED79C31576A284000E02E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56ED79C91576A284000E02E3 /* SenTestingKit.framework in Frameworks */,
+				56ED79CA1576A284000E02E3 /* UIKit.framework in Frameworks */,
+				56ED79CB1576A284000E02E3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56ED797C1576A188000E02E3 = {
+			isa = PBXGroup;
+			children = (
+				56ED79911576A188000E02E3 /* Puzzle */,
+				56ED79CC1576A284000E02E3 /* UnitTests */,
+				56ED798A1576A188000E02E3 /* Frameworks */,
+				56ED79881576A188000E02E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		56ED79881576A188000E02E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56ED79871576A188000E02E3 /* 15Puzzle.app */,
+				56ED79C71576A284000E02E3 /* UnitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56ED798A1576A188000E02E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56ED798B1576A188000E02E3 /* UIKit.framework */,
+				56ED798D1576A188000E02E3 /* Foundation.framework */,
+				56ED798F1576A188000E02E3 /* CoreGraphics.framework */,
+				56ED79C81576A284000E02E3 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56ED79911576A188000E02E3 /* Puzzle */ = {
+			isa = PBXGroup;
+			children = (
+				56ED799A1576A188000E02E3 /* AppDelegate.h */,
+				56ED799B1576A188000E02E3 /* AppDelegate.m */,
+				56ED79AA1576A1CC000E02E3 /* ViewController.h */,
+				56ED79AB1576A1CC000E02E3 /* ViewController.m */,
+				56ED79A81576A1A8000E02E3 /* ViewController.xib */,
+				56ED79BD1576A217000E02E3 /* VCPuzzleGrid.h */,
+				56ED79BE1576A217000E02E3 /* VCPuzzleGrid.m */,
+				56ED79AD1576A1E7000E02E3 /* VCMutableGrid.h */,
+				56ED79AE1576A1E7000E02E3 /* VCMutableGrid.m */,
+				56ED79AF1576A1E7000E02E3 /* VCOutlineView.h */,
+				56ED79B01576A1E7000E02E3 /* VCOutlineView.m */,
+				56ED79B31576A1EE000E02E3 /* Categories */,
+				56ED79921576A188000E02E3 /* Supporting Files */,
+			);
+			name = Puzzle;
+			path = 15Puzzle;
+			sourceTree = "<group>";
+		};
+		56ED79921576A188000E02E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56E6FC4B1602A6FA002D76C8 /* TeeHeeNiceTry.jpg */,
+				56ED79931576A188000E02E3 /* 15Puzzle-Info.plist */,
+				56ED79941576A188000E02E3 /* InfoPlist.strings */,
+				56ED79971576A188000E02E3 /* main.m */,
+				56ED79991576A188000E02E3 /* 15Puzzle-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		56ED79B31576A1EE000E02E3 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				56ED79B41576A207000E02E3 /* NSArray+Permute.h */,
+				56ED79B51576A207000E02E3 /* NSArray+Permute.m */,
+				56ED79B61576A207000E02E3 /* NSMutableArray+Move.h */,
+				56ED79B71576A207000E02E3 /* NSMutableArray+Move.m */,
+				56ED79B81576A207000E02E3 /* UIColor+RandomColor.h */,
+				56ED79B91576A207000E02E3 /* UIColor+RandomColor.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		56ED79CC1576A284000E02E3 /* UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				56ED79DD1576A2AA000E02E3 /* VCPuzzleGridTest.h */,
+				56ED79DE1576A2AA000E02E3 /* VCPuzzleGridTest.m */,
+				56ED79DF1576A2AA000E02E3 /* MutableGridTest.h */,
+				56ED79E01576A2AA000E02E3 /* MutableGridTest.m */,
+				56ED79DB1576A2AA000E02E3 /* ArrayPermuteTest.h */,
+				56ED79DC1576A2AA000E02E3 /* ArrayPermuteTest.m */,
+				56ED79E11576A2AA000E02E3 /* NSMutableArrayMoveTest.h */,
+				56ED79E21576A2AA000E02E3 /* NSMutableArrayMoveTest.m */,
+				56ED79D21576A284000E02E3 /* UnitTests.h */,
+				56ED79D31576A284000E02E3 /* UnitTests.m */,
+				56ED79CD1576A284000E02E3 /* Supporting Files */,
+			);
+			path = UnitTests;
+			sourceTree = "<group>";
+		};
+		56ED79CD1576A284000E02E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56ED79CE1576A284000E02E3 /* UnitTests-Info.plist */,
+				56ED79CF1576A284000E02E3 /* InfoPlist.strings */,
+				56ED79D51576A284000E02E3 /* UnitTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56ED79861576A188000E02E3 /* 15Puzzle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56ED79A51576A188000E02E3 /* Build configuration list for PBXNativeTarget "15Puzzle" */;
+			buildPhases = (
+				56ED79831576A188000E02E3 /* Sources */,
+				56ED79841576A188000E02E3 /* Frameworks */,
+				56ED79851576A188000E02E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 15Puzzle;
+			productName = 15Puzzle;
+			productReference = 56ED79871576A188000E02E3 /* 15Puzzle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56ED79C61576A284000E02E3 /* UnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56ED79D61576A284000E02E3 /* Build configuration list for PBXNativeTarget "UnitTests" */;
+			buildPhases = (
+				56ED79C21576A284000E02E3 /* Sources */,
+				56ED79C31576A284000E02E3 /* Frameworks */,
+				56ED79C41576A284000E02E3 /* Resources */,
+				56ED79C51576A284000E02E3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56ED79DA1576A28E000E02E3 /* PBXTargetDependency */,
+			);
+			name = UnitTests;
+			productName = UnitTests;
+			productReference = 56ED79C71576A284000E02E3 /* UnitTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56ED797E1576A188000E02E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 56ED79811576A188000E02E3 /* Build configuration list for PBXProject "15Puzzle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 56ED797C1576A188000E02E3;
+			productRefGroup = 56ED79881576A188000E02E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56ED79861576A188000E02E3 /* 15Puzzle */,
+				56ED79C61576A284000E02E3 /* UnitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56ED79851576A188000E02E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56ED79961576A188000E02E3 /* InfoPlist.strings in Resources */,
+				56ED79A91576A1A8000E02E3 /* ViewController.xib in Resources */,
+				56E6FC4C1602A6FA002D76C8 /* TeeHeeNiceTry.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56ED79C41576A284000E02E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56ED79D11576A284000E02E3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		56ED79C51576A284000E02E3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56ED79831576A188000E02E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56ED79981576A188000E02E3 /* main.m in Sources */,
+				56ED799C1576A188000E02E3 /* AppDelegate.m in Sources */,
+				56ED79AC1576A1CC000E02E3 /* ViewController.m in Sources */,
+				56ED79B11576A1E7000E02E3 /* VCMutableGrid.m in Sources */,
+				56ED79B21576A1E7000E02E3 /* VCOutlineView.m in Sources */,
+				56ED79BA1576A207000E02E3 /* NSArray+Permute.m in Sources */,
+				56ED79BB1576A207000E02E3 /* NSMutableArray+Move.m in Sources */,
+				56ED79BC1576A207000E02E3 /* UIColor+RandomColor.m in Sources */,
+				56ED79BF1576A217000E02E3 /* VCPuzzleGrid.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56ED79C21576A284000E02E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56ED79D41576A284000E02E3 /* UnitTests.m in Sources */,
+				56ED79E31576A2AA000E02E3 /* ArrayPermuteTest.m in Sources */,
+				56ED79E41576A2AA000E02E3 /* VCPuzzleGridTest.m in Sources */,
+				56ED79E51576A2AA000E02E3 /* MutableGridTest.m in Sources */,
+				56ED79E61576A2AA000E02E3 /* NSMutableArrayMoveTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56ED79DA1576A28E000E02E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56ED79861576A188000E02E3 /* 15Puzzle */;
+			targetProxy = 56ED79D91576A28E000E02E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		56ED79941576A188000E02E3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56ED79951576A188000E02E3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		56ED79CF1576A284000E02E3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56ED79D01576A284000E02E3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56ED79A31576A188000E02E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		56ED79A41576A188000E02E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56ED79A61576A188000E02E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "15Puzzle/15Puzzle-Prefix.pch";
+				INFOPLIST_FILE = "15Puzzle/15Puzzle-Info.plist";
+				PRODUCT_NAME = 15Puzzle;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		56ED79A71576A188000E02E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "15Puzzle/15Puzzle-Prefix.pch";
+				INFOPLIST_FILE = "15Puzzle/15Puzzle-Info.plist";
+				PRODUCT_NAME = 15Puzzle;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		56ED79D71576A284000E02E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/15Puzzle.app/15Puzzle";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UnitTests/UnitTests-Prefix.pch";
+				INFOPLIST_FILE = "UnitTests/UnitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		56ED79D81576A284000E02E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/15Puzzle.app/15Puzzle";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UnitTests/UnitTests-Prefix.pch";
+				INFOPLIST_FILE = "UnitTests/UnitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56ED79811576A188000E02E3 /* Build configuration list for PBXProject "15Puzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56ED79A31576A188000E02E3 /* Debug */,
+				56ED79A41576A188000E02E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56ED79A51576A188000E02E3 /* Build configuration list for PBXNativeTarget "15Puzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56ED79A61576A188000E02E3 /* Debug */,
+				56ED79A71576A188000E02E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56ED79D61576A284000E02E3 /* Build configuration list for PBXNativeTarget "UnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56ED79D71576A284000E02E3 /* Debug */,
+				56ED79D81576A284000E02E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56ED797E1576A188000E02E3 /* Project object */;
+}
